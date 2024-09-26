@@ -1,0 +1,33 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.img-con{
+    width: 200px;
+    height: 160px;
+}
+.goods{
+    height: 250px;
+    display: grid;
+    grid-template: repeat(auto-fill, minmax(200px, fr));
+    grid-gap: 10px;
+
+}
+.cart{
+ padding:20px;
+ width: 50%;
+ display: inline-flej;
+ flex-direction: column;
+ justify-content: space-between;
+ border: 10px solid sandybrown;
+}
+.cart img{
+    height: auto;
+    width: 50%;
+}
+
